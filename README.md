@@ -1,6 +1,4 @@
-# Phax
-[![Build Status](https://travis-ci.org/GeorgeErickson/phax.png?branch=master)](https://travis-ci.org/GeorgeErickson/phax)
-[![Coverage Status](https://coveralls.io/repos/GeorgeErickson/phax/badge.png)](https://coveralls.io/r/GeorgeErickson/phax)
+# Phax [![Build Status](https://travis-ci.org/GeorgeErickson/phax.png?branch=master)](https://travis-ci.org/GeorgeErickson/phax) [![Coverage Status](https://coveralls.io/repos/GeorgeErickson/phax/badge.png)](https://coveralls.io/r/GeorgeErickson/phax)
 A simple phaxio api wrapper using faraday.
 
 ## Installation
