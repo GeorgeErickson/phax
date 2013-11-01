@@ -1,5 +1,5 @@
 # Phax
-
+[![Build Status](https://travis-ci.org/GeorgeErickson/phax.png?branch=master)](https://travis-ci.org/GeorgeErickson/phax)
 A simple phaxio api wrapper using faraday.
 
 ## Installation
