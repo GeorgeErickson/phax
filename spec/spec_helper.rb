@@ -11,4 +11,3 @@ if ENV['TRAVIS']
 end
 
 require 'phax'
-
