@@ -8,3 +8,7 @@ group :guard do
   gem 'guard-rspec'
   gem 'guard-rubocop'
 end
+
+group :test do
+  gem 'coveralls', require: false
+end

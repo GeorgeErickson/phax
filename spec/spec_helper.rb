@@ -4,3 +4,11 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.order = 'random'
 end
+
+if ENV['TRAVIS']
+  require 'coveralls'
+  Coveralls.wear!
+end
+
+require 'phax'
+
