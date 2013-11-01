@@ -1,2 +1,5 @@
+AllCops:
+  Excludes:
+    - bin/**
 Documentation:
   Enabled: false

@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "faraday", "~> 0.8.8"
+  spec.add_dependency "faraday_middleware"
   spec.add_dependency "multi_json", "~> 1.8"
   spec.add_dependency "activesupport"
 
