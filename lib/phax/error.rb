@@ -1,7 +1,6 @@
 module Phax
   # phaxio.com/docs/errors
   module Error
-
     class DocumentConversionError < StandardError
     end
 

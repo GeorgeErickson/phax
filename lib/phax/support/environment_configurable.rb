@@ -3,7 +3,6 @@ require 'active_support/configurable'
 
 module Phax
   module Support
-
     # ActiveSupport::Configurable with env variable fallback.
     module EnvironmentConfigurable
       extend ActiveSupport::Concern
@@ -20,6 +19,5 @@ module Phax
         end
       end
     end
-
   end
 end
