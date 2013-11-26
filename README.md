@@ -16,8 +16,18 @@ Or install it yourself as:
     $ gem install phax
 
 ## Usage
+### Config
+1. 
+Set `PHAXIO_KEY` and `PHAXIO_SECRET` environment variables
 
-TODO: Write usage instructions here
+2. Or use initializer
+
+    ```
+    Phax.configure do |config|
+        config.api_key = '<phaxio public key>'
+        config.api_secret = '<phaxio secret key>'
+    end
+    ```
 
 ## Contributing
 
