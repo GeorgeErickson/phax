@@ -18,10 +18,10 @@ module Phax
     def fax(options)
     end
 
-    def get(fax_id, type: nil)
+    def get(fax_id, type =  nil)
     end
 
-    def list(start_time, end_time, page: nil, max_per_page: nil)
+    def list(start_time, end_time, page = nil, max_per_page = nil)
     end
 
     def status(fax_id)
