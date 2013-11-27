@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 ### Config
-1. 
+1.
 Set `PHAXIO_KEY` and `PHAXIO_SECRET` environment variables
 
 2. Or use initializer
@@ -31,6 +31,13 @@ Set `PHAXIO_KEY` and `PHAXIO_SECRET` environment variables
         config.api_secret = '<phaxio secret key>'
     end
     ```
+### Send
+Phax.fax()
+Phax.default_send_options
+Phax.fax_text()
+Phax.fax_url()
+Phax.fax_html()
+Phax.fax_file()
 
 ## Contributing
 
